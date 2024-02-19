@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Regular ;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Medium ;
+    src: url(./assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Light ;
+    src: url(./assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Bold ;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+
+:root {
+    --primary-color:#0000;
+    --secondary-color:#999999;
+    --para-color:#fd4c82;
+}
+
+
+*{ margin: 0;
+padding: 0;}
+
+ul li { list-style: none;}
+
+body{ background-color:rgba(128, 128, 128, 0.178)}
+
+
+.col.social-link {
+    text-align: end;
+}
+
+p{ color: var(--secondary-color);}
+
+.special-btn { background-color: var(--para-color); color: #fff; }
+
+a{ text-decoration: none; color: black;}
+
+.navbar-nav {justify-content: space-evenly;}
+
+.social-link img{
+    height: 25px;
+    width: 25px;
+}
+
+#navbarSupportedContent { justify-content: end; }
+
+#navbarSupportedContent a {  font-family: Bold ;}
+
+#navbarSupportedContent .nav-link { gap: 20px;}
+
+.Footer { line-height: 30px;}
+
+.Footer img { height: 25px;}
+
+.Footer span { color: var(--para-color);}
